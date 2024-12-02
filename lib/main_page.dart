@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:instagram_ui/pages/home_page.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({super.key});
@@ -17,11 +18,7 @@ class _MainPageState extends State<MainPage> {
   }
 
   List<Widget> pages = [
-    const Center(
-        child: Text(
-      'Home',
-      style: TextStyle(fontSize: 40),
-    )),
+    HomePage(),
     const Center(
         child: Text(
       'Search',
